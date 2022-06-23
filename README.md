@@ -8,13 +8,9 @@ Instructions and source code for lab was provided as a tutorial in CMPE 125 by P
 We use “VOTING RULE” example
 
 Technology Stack: 
-
 Windows 7
-
 ISE Design Suite 14.7
-
 Digilent Adept
-
 Nexys3 FPGA
 
 Adept USB cable [USB type A to USB micro-B] (use this to power on the board); You will also need to flick the power on switch onboard.

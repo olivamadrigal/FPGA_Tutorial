@@ -55,3 +55,6 @@ Once programmed successfully, you can do hardware FPGA validation.
 
 Manual test with the three right most DIP switches (from left to right: “a”, “b”, “c”) and observe the corresponding display on the leftmost (7seg LED 0).
 
+https://digilent.com/reference/_media/nexys:nexys3:nexys3_rm.pdf
+
+https://www.copacobana.org/ :)

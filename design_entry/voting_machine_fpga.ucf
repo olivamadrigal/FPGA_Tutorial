@@ -1,0 +1,28 @@
+####################################################################
+# USER CONSTRAINT FILE															 #
+# FILE NAME: voting_machine_fpga.ucf										 #
+# DATE: 2/10/15																	 #
+####################################################################
+NET clk100MHz LOC = V10; // ON BOARD CLOCK with 100 MHz crystal
+NET rst LOC = C9; // RESET BUTTON
+
+// DIP SWITCH PIN ASSIGNMENTS
+NET A LOC = V9;
+NET B LOC = T9;
+NET C LOC = T10;
+
+// LED SEGMENT ASSIGNMENT
+NET LEDOUT<0> LOC = U18; 
+NET LEDOUT<1> LOC = U17;
+NET LEDOUT<2> LOC = M14;
+NET LEDOUT<3> LOC = L14;
+NET LEDOUT<4> LOC = T18;
+NET LEDOUT<5> LOC = N14;
+NET LEDOUT<6> LOC = T17;
+NET LEDOUT<7> LOC = M13;
+
+// SELCTION PIN ASSIGNMENT FOR THE 4 INDIVIDUAL LINES
+NET LEDSEL<0> LOC = P17;
+NET LEDSEL<1> LOC = P18;
+NET LEDSEL<2> LOC = N15;
+NET LEDSEL<3> LOC = N16;

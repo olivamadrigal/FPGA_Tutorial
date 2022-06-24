@@ -57,7 +57,7 @@ FPGA is comprised of arrays of CLBs.. combinational logic blocks though which ou
 
 step 6: Hardware Validation
 
-Once programmed successfully, you can do hardware FPGA validation. See example for this: <youtubelink>
+Once programmed successfully, you can do hardware FPGA validation. See example for this: https://youtu.be/oIO4FOqUTcg
 
 Manual test with the three right most DIP switches (from left to right: “a”, “b”, “c”) and observe the corresponding display on the leftmost (7seg LED 0).
 

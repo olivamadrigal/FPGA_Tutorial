@@ -55,7 +55,9 @@ Open Digilent Adept application, browse for the “top_level_name.bit”  file i
 
 FPGA is comprised of arrays of CLBs.. combinational logic blocks though which our HDL form of the design gets materialized. 
 
-Once programmed successfully, you can do hardware FPGA validation. 
+step 6: Hardware Validation
+
+Once programmed successfully, you can do hardware FPGA validation. See example for this: <youtubelink>
 
 Manual test with the three right most DIP switches (from left to right: “a”, “b”, “c”) and observe the corresponding display on the leftmost (7seg LED 0).
 
